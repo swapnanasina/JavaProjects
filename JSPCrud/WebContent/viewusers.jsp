@@ -19,7 +19,7 @@ List<User> list=UserDao.getAllRecords();
 request.setAttribute("list",list);  
 %>  
   
-<table border="1" width="90%">  
+<table border="1">  
 <tr><th>Id</th><th>Name</th><th>Password</th><th>Email</th>  
 <th>Sex</th><th>Country</th><th>Edit</th><th>Delete</th></tr>  
 <c:forEach items="${list}" var="u">  
